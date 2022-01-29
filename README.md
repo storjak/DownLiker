@@ -4,7 +4,7 @@ This userscript app is meant to enable quick, full-res media downloads from twit
 
 ## Notice
 
-This app isn't finished yet and it's very buggy.  At the moment it can download an image, image collections, and GIFs as MP4's.  Video download support is currently being built.  If there are any features you'd like to see worked in let me know or submit a PR of your own.
+This app isn't finished yet and it's very buggy.  At the moment it can download an image, image collections, and GIFs as MP4's.  Video download support is currently being built.  If there are any features you'd like to see worked in let me know or submit a PR of your own.  At this moment it ONLY works with Tampermonkey, *not* Greasemonkey, as the site recognition regex is different.
 
 ## Issues
 
@@ -14,6 +14,7 @@ This app isn't finished yet and it's very buggy.  At the moment it can download 
 * It does not work for GIFs if the GIF is playing, only if the GIF has not been clicked yet.
 * It doesn't work on many views, such as in an enlarged image view.
 * The toggle switch is basic and ugly.  It looks good enough, I don't think I'll do a major change but it needs to be cleaned up a bit.
+* Doesn't work with Greasemonkey
 
 ## Timeline
 
@@ -22,4 +23,5 @@ This app isn't finished yet and it's very buggy.  At the moment it can download 
 3. Don't download embeds in the tweet
 4. Work in every view
 5. Persist through page changes
-6. Make it look pretty
+6. Make it work with Greasemonkey
+7. Make it look pretty
