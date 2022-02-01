@@ -112,7 +112,7 @@ function likeClickHandler(e) {
 function articleGetter() {
     let statusRef = window.location.pathname.match(/\/(\S+)\/p/)[1],
         query1 = clickListenerHook.querySelectorAll(`a[href*="${statusRef}"][id]`),
-        query2 = clickListenerHook.querySelectorAll(`a[href*="${statusRef}"][class="css-4rbku5 css-18t94o4 css-901oao css-16my406 r-9ilb82 r-1loqt21 r-poiln3 r-bcqeeo r-qvutc0"`);
+        query2 = clickListenerHook.querySelectorAll(`a[href*="${statusRef}"][class="css-4rbku5 css-18t94o4 css-901oao css-16my406 r-9ilb82 r-1loqt21 r-poiln3 r-bcqeeo r-qvutc0"]`);
     if (query1.length > 0) {
         return query1[0].closest("article");
     } else if (query2.length > 1) {
@@ -137,7 +137,7 @@ function downloadHandler(srcArr) {
         case "t": // gif
             re = /b\/(\S+)\?/;
             result = srcArr[0].match(re)[1];
-            fetchRequest("https://video.twimg.com/tweet_video/" + result + ".mp4", result); // url, id
+            fetchRequest("https://video.twimg.com/tweet_video/" + result + ".mp4", result);
             break;
         case "e": { // video
             console.log("downloadHandler > video");
