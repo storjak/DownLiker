@@ -12,8 +12,6 @@ This app isn't finished yet and it's very buggy.  At the moment it can download 
 * Breaks on page changes.  Twitter is a React site so when the DOM changes the extension gets destroyed and does not recreate itself.
 * If there are any images other than the media embedded in a tweet, such as another tweet, it will download *all* the images.  It's not supposed to do this.
 * It does not work for GIFs if the GIF is playing, only if the GIF has not been clicked yet.
-* It doesn't work on many views, such as in an enlarged image view.
-* The toggle switch is basic and ugly.  It looks good enough, I don't think I'll do a major change but it needs to be cleaned up a bit.
 * Doesn't work with Greasemonkey
 
 ## Timeline
@@ -21,7 +19,14 @@ This app isn't finished yet and it's very buggy.  At the moment it can download 
 1. Currently working on implementing video downloads
 2. Add support for downloading playing GIFs and videos
 3. Don't download embeds in the tweet
-4. Work in every view
-5. Persist through page changes
-6. Make it work with Greasemonkey
-7. Make it look pretty
+4. Persist through page changes
+5. Make it work with Greasemonkey
+
+## Most Recent Update
+
+1. Added support for multiple views, such as enlarged image and image galleries
+2. Made the slider match the page better
+
+Program last updated 20220131
+
+Readme last updated 20220131
