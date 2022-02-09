@@ -10,23 +10,21 @@ This app isn't finished yet and it's very buggy.  At the moment it can download 
 
 * Doesn't work with videos.
 * Breaks on page changes.  Twitter is a React site so when the DOM changes the extension gets destroyed and does not recreate itself.
-* If there are any images other than the media embedded in a tweet, such as another tweet, it will download *all* the images.  It's not supposed to do this.
+* If there are any images other than the media embedded in a tweet, such as another tweet, it will download *all* the images, not just the parent post's content.
 * It does not work for GIFs if the GIF is playing, only if the GIF has not been clicked yet.
 * Doesn't work with Greasemonkey
 
 ## Timeline
 
 1. Currently working on implementing video downloads
-2. Add support for downloading playing GIFs and videos
-3. Don't download embeds in the tweet
-4. Persist through page changes
-5. Make it work with Greasemonkey
+2. Don't download embeds in the tweet
+3. Persist through page changes
+4. Make it work with Greasemonkey (maybe)
 
 ## Most Recent Update
 
-1. Added support for multiple views, such as enlarged image and image galleries
-2. Made the slider match the page better
+1. Added support for static and active GIFs
+2. Laid (unpublished) groundwork for static and active video support
 
-Program last updated 20220131
-
-Readme last updated 20220131
+Program last updated 20220209
+Readme last updated 20220209
