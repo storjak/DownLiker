@@ -25,7 +25,7 @@
 
 let latestBar, nativeSwitcherButton, embeddedCheckboxWhole, embeddedCheckboxInput, clickListenerHook;
 const root = document.getElementById("react-root"),
-    latestBarClasses = "css-1dbjc4n r-1awozwy r-18u37iz r-1h3ijdo r-1777fci r-1jgb5lz r-sb58tz r-ymttw5 r-13qz1uu",
+    latestBarClasses = "css-1dbjc4n r-1awozwy r-1igl3o0 r-rull8r r-qklmqi r-ouzzow r-18u37iz r-16y2uox r-1hvjb8t",
     switcherButtonClasses = "css-1dbjc4n r-obd0qt r-1pz39u2 r-1777fci r-15ysp7h r-s8bhmr",
     toggleSwitchElem = document.createElement("div"),
     newStyle = document.createElement("style"),
